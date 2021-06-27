@@ -1,0 +1,245 @@
+.annonces-container {
+  display: flex;
+  width: 100%;
+  padding-top: 3.6em;
+}
+
+.annonces-wrapper {
+  width: 100%;
+}
+
+.annonces-container h2 {
+  color: #3bafe2;
+}
+
+.annonces-container h1 {
+  color: #3bafe2;
+  align-self: flex-start;
+  font-size: large;
+}
+
+.annonces-container h3 {
+  color: #929291;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.annonces-card-pic-holder {
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+}
+
+.annonces-card {
+  background-color: rgb(250, 250, 250);
+  margin: 1em;
+  width: 90%;
+  display: flex;
+  transition: 0.2s;
+  cursor: pointer;
+  border-left: 5px #3bafe2 solid;
+}
+
+.annonces-card:hover {
+  border-left: 5px #0064d4 solid;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.annonces-card img {
+  max-width: 10%;
+}
+
+.annonces-card-info {
+  padding: 1em;
+}
+
+.annonces-card-info h2 {
+  font-size: medium;
+}
+
+.annonces-total-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1em 0 2em;
+}
+
+.annonces-post-wrapper {
+  margin: 0 2em 0 1em;
+
+  width: 30%;
+}
+
+.annonces-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 5px #3bafe2 solid;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  width: 100%;
+}
+
+.annonces-post-container {
+  border-top: 5px #3bafe2 solid;
+  background-color: white;
+  height: fit-content;
+  width: 100%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.annonces-post-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.annonces-post-container textarea {
+  resize: none;
+  height: 10em;
+  border: none;
+  padding: 0.5em;
+  border-radius: 2px;
+  border: rgb(220, 220, 220) 2px solid;
+  outline-color: #3bafe2;
+  background-color: rgb(250, 250, 250);
+  margin-top: 2em;
+}
+
+.annonces-post-container input[type="text"] {
+  padding: 0.2em;
+  border: none;
+  border-radius: 2px;
+  border: rgb(220, 220, 220) 2px solid;
+  outline-color: #3bafe2;
+  background-color: rgb(250, 250, 250);
+}
+
+.annonces-post-container input[type="submit"] {
+  background-color: #3bafe2;
+  border-radius: 2px;
+  align-self: center;
+  margin: 1em;
+  padding: 0.5em;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.annonces-post-text {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.annonces-post-container input[type="submit"]:focus {
+  outline: none;
+}
+
+.annonces-post-container input[type="submit"]:hover {
+  outline: none;
+  background-color: #0064d4;
+}
+
+.annonces-post-container input[type="file"] {
+  display: none;
+}
+
+.annonces-post-container label {
+  align-self: center;
+  margin: 1em;
+  background-color: #3bafe2;
+  color: white;
+  font-weight: bold;
+  padding: 0.5em;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.annonces-post-container label:hover {
+  background-color: #0064d4;
+}
+
+.annonce-solo-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.annonces-solo-retour {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0.5em;
+}
+
+.annonces-solo-retour a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.annonce-solo-container {
+  margin: 2em;
+  border-top: 5px #3bafe2 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.03);
+  width: 50%;
+  background-color: white;
+}
+
+.annonce-solo-container img {
+  width: 100%;
+  border-radius: 2px;
+  display: block;
+}
+
+.annonce-solo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.annonce-solo-info-text {
+  padding: 1em;
+}
+
+.annonce-solo-info-text > * {
+  margin: 0.1em;
+}
+
+.annonce-solo-info h2 {
+  font-size: x-large;
+}
+
+.annonce-solo-info-contenu {
+  border-radius: 2px;
+  background-color: rgb(250, 250, 250);
+  padding: 1em;
+  margin: 1em;
+  overflow-wrap: break-word;
+}
+
+.annonces-error {
+  color: red;
+  font-size: small;
+}
+
+.annonces-error-pic {
+  color: red;
+  font-size: small;
+  align-self: center;
+}
+
+.annonces-success {
+  color: #0064d4;
+  align-self: center;
+  margin: 1em;
+}

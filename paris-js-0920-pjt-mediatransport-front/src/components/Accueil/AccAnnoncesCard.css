@@ -1,0 +1,27 @@
+.acc-annonces-card-all {
+  height: 200px;
+}
+.acc-annonces-img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.acc-annonces-info {
+  margin-bottom: 30px;
+  background-color: white;
+  width: 80%;
+  height: 30%;
+}
+
+.acc-annonces-info h2 {
+  margin: 5px;
+}
+
+.acc-annonces-info p {
+  margin-left: 5px;
+}

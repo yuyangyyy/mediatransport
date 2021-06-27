@@ -1,0 +1,20 @@
+.paragraphe-all {
+  margin: 50px;
+  display:block ;
+  width: 100%;
+  overflow: auto;
+}
+
+.paragraphe-all img {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+
+.paragraphe-all p {
+  white-space: pre-wrap;
+}
+
+.paragraphe-all h4 {
+  font-size: 25px;
+}

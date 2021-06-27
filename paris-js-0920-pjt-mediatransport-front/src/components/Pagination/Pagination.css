@@ -1,0 +1,30 @@
+.pagination-all {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+
+.pagination-all input[type="button"] {
+  border: none;
+  cursor: pointer;
+  background-color: #3bafe2;
+  color: white;
+  transition: 0.2s;
+}
+
+.pagination-all input[type="button"]:hover {
+  background-color: rgb(220, 220, 220);
+  color: #3bafe2;
+}
+
+.pagination-arrow {
+  width: 100px;
+}
+
+.pagination-index-selector {
+  width: 20px;
+}
+

@@ -1,0 +1,44 @@
+.itemlist-all {
+  margin: 1px;
+  box-shadow: 2px 0px 5px 0px rgba(0, 100, 212, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3bafe2;
+}
+
+.itemlist-info {
+  display: flex;
+
+  align-items: center;
+  margin: 10px;
+}
+
+.itemlist-info h2 {
+  font-weight: bold;
+  color: white;
+  background-color: #0064d4;
+  height: 100%;
+  padding: 1em;
+}
+
+.itemlist-info p {
+  color: white;
+  height: 100%;
+  padding: 1em;
+}
+
+.itemlist-button input[type="button"] {
+  background-color: red;
+  border: none;
+  width: 80px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+.itemlist-button input[type="button"]:hover {
+  background-color: darkred;
+}

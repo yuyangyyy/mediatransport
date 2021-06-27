@@ -1,0 +1,38 @@
+.admin-pa {
+  align-self: center;
+}
+
+.annonce-solo-container label {
+  background-color: #3bafe2;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.annonce-solo-container label:hover {
+  background-color: #0064d4;
+}
+
+.admin-succeed {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+.modify-btn-pa-admin {
+  background-color: #3bafe2;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.modify-btn-pa-admin:hover {
+  background-color: #0064d4;
+}

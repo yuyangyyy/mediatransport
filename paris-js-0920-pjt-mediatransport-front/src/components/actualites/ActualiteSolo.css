@@ -1,0 +1,91 @@
+.actu-solo-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.actus-solo-retour {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0.5em;
+}
+
+.actus-solo-retour a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.actu-solo-container {
+  margin: 2em;
+  border-top: 5px #3bafe2 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.03);
+  width: 70%;
+  background-color: white;
+}
+
+.actu-solo-container h1 {
+  font-size: 40px;
+}
+
+.actu-solo-header {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.actu-solot-topinfo {
+  margin: 10px;
+}
+
+.actu-solo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.actu-solo-info-text {
+  padding: 1em;
+  overflow-wrap: break-word;
+}
+
+.actu-solo-info-text > * {
+  margin: 0.1em;
+}
+
+.actu-solo-info h2 {
+  font-size: x-large;
+}
+
+.actu-solo-info-contenu {
+  border-radius: 2px;
+  background-color: rgb(250, 250, 250);
+  padding: 1em;
+  margin: 1em;
+}
+
+.actus-error {
+  color: red;
+  font-size: small;
+}
+
+.actus-error-pic {
+  color: red;
+  font-size: small;
+  align-self: center;
+}
+
+.actus-success {
+  color: #0064d4;
+  align-self: center;
+  margin: 1em;
+}

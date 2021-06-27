@@ -1,0 +1,22 @@
+.ressource-fichier {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  height: auto;
+  padding: 40px 10px 40px;
+  background-color: #d2691e;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.fichier-description {
+  font-size: 13px;
+  color: #102335;
+  font-weight: bold;
+  padding-top: 20px;
+}

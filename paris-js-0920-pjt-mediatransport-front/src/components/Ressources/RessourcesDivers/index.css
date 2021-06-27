@@ -1,0 +1,22 @@
+.ressource-divers {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: #d2691e;
+  width: 80%;
+  height: auto;
+  padding: 40px 10px 40px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.divers-image {
+  width: 180px;
+  height: 150px;
+}
+
+.logo-description {
+  font-size: 13px;
+  color: #102335;
+  padding-top: 20px;
+}

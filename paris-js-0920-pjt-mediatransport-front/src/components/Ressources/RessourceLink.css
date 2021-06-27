@@ -1,0 +1,15 @@
+.ressource-link {
+  width: 120px;
+  height: 70px;
+  background-color: #102335;
+  border-radius: 60%;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #d2691e;
+}
+
+.ressource-link:hover {
+  background-color: #d2691e;
+  color: #102335;
+}

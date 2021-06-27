@@ -1,0 +1,61 @@
+:root {
+    --main-color: #F6F6F6;
+
+    --dark-bleu: #102335;
+    --second-bleu: #0064D4;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+.container {
+    text-align: center;
+}
+
+.title-contact {
+    color: var(--dark-bleu);
+    margin: 20px;
+    font-size: 25px;
+}
+
+.container h2 {
+    font-size: 16px;
+}
+
+.container input {
+    margin-top: 50px;
+    width: 300px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.table-caption {
+    font-size: 16px;
+    margin: 30px;
+}
+
+.table-style {
+    border-collapse: collapse;
+    min-width: 1000px;
+    max-width: 1000px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    margin: 50px auto;
+    border: 2px solid var(--dark-bleu);
+}
+
+thead tr {
+    background-color: var(--dark-bleu);
+    color: white;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px 20px;
+}
+
+tbody tr, td, th {
+    border: 1px solid var(--dark-bleu);
+}

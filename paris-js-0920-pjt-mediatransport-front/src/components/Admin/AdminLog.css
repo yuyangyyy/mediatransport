@@ -1,0 +1,53 @@
+.admin-log-all {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.admin-log-all h2 {
+   color: #0064d4;
+   font-size: 20px;
+}
+
+.admin-log-form {
+  background-color: white;
+  border: none;
+  padding: 3em;
+  color: #0064d4;
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-log-form input[type="text"] {
+  border: rgb(220, 220, 220) 2px solid;
+  border-radius: 2px;
+  background-color: rgb(250, 250, 250);
+  color: #929291;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.admin-log-all input[type="button"] {
+  width: 40%;
+  margin: 10px;
+  background-color: #3bafe2;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.admin-log-inputs {
+  width: 100%;
+}

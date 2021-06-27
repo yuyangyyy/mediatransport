@@ -1,0 +1,23 @@
+.ressource-logo {
+  display: grid;
+  background-color: #d2691e;
+  border-radius: 20px;
+  width: 80%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  min-height: 100vh;
+  margin-top: 50px;
+  padding: 40px 10px 10px 10px;
+}
+
+.logo-image {
+  width: 220px;
+  height: 100px;
+}
+
+.logo-description {
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 6px;
+  color: #102335;
+}

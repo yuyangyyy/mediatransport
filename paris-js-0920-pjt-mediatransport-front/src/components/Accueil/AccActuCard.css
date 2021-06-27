@@ -1,0 +1,27 @@
+.accactu-card-pic {
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.accactu-card-info {
+  background-color: white;
+  height: 100px;
+  width: 80%;
+  margin-bottom: 35px;
+}
+
+.accactu-card-info h2 {
+  margin-left: 10px;
+  font-size: 40px;
+  color: #929291;
+}
+
+.accactu-card-info p {
+  margin-left: 10px;
+}

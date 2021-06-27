@@ -1,0 +1,54 @@
+.admin-actu-all {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-actu-wrapper {
+  margin-top: 2em;
+  width: 90%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-actu-choices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-actu-choices input[type="button"] {
+  background-color: white;
+  border: none;
+  padding: 1em;
+  color: #0064d4;
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.admin-actu-choices input[type="button"]:hover {
+  background-color: #0064d4;
+  color: white;
+  cursor: pointer;
+}
+
+.admin-actu-container {
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-top: 2em;
+}
+
+.admin-actu-topbar {
+  padding: 1em;
+  background-color: #102335;
+
+  color: white;
+  font-weight: bold;
+}
+
+.admin-actu-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}

@@ -1,0 +1,50 @@
+.accueil-all {
+
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1.7fr 1.7fr 1fr;
+  grid-template-rows: auto;
+  gap: 40px 40px;
+  grid-template-areas:
+    ". actu actu ."
+    ". contacts annuaire ."
+    ". annonces  annonces ."
+    ". . . .";
+}
+
+.accueil-actu-container {
+  grid-area: actu;
+}
+
+.accueil-all h2 {
+  align-self: flex-start;
+  margin: 10px;
+  color: #3bafe2;
+  font-size: px;
+}
+
+.accueil-annonces-container {
+  grid-area: annonces;
+  width: calc(50% - 20px );
+}
+
+.accueil-contact-container {
+  grid-area: contacts;
+}
+
+.accueil-annuaire-container {
+  grid-area: annuaire;
+}
+
+.carousel-cont {
+  width: 100%;
+}
+
+.carousel-dot li button {
+  border-color: #3bafe2;
+  margin-bottom: 10px;
+}
+
+.react-multi-carousel-dot--active button {
+  background-color: #3bafe2 !important;
+}

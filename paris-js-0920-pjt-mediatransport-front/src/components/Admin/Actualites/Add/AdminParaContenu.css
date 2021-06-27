@@ -1,0 +1,13 @@
+.paragraphecontenu-all {
+  width: 40%;
+  border:  #3bafe2 3px solid;
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.1);  
+}
+
+.paragraphecontenu-wrap { 
+  margin: 10px;
+}
+
+.paragraphecontenu-wrap img {
+  width: 200px;  
+}
